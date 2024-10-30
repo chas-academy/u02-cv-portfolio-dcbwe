@@ -396,6 +396,10 @@ input, textarea {
     margin: auto;
 }
 
+.main-projects section .text-wrapper p {
+    color: var(--secondary-color);
+}
+
 .main-projects > section > .project-header .starface {
     height: 5rem;
     width: 5rem;
