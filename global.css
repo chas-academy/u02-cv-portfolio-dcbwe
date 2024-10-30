@@ -396,7 +396,7 @@ input, textarea {
     margin: auto;
 }
 
-.main-projects section .text-wrapper p {
+.main-projects > section > .text-wrapper > p {
     color: var(--secondary-color);
 }
 
@@ -546,10 +546,17 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
-    gap:calc(var(--spacing-unit) * 10);
+    gap:calc(var(--spacing-unit) * 5);
     background-color: var(--secondary-color);
+}
+
+footer div {
+    display: flex;
+    flex-wrap: nowrap;
+    gap:var(--spacing-unit);
+    padding: var(--spacing-unit) 0rem;
 }
 
 footer p {
